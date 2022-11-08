@@ -1,3 +1,4 @@
 {
-    "mongoDB_URI" : "mongodb+srv://deekshith:bangi@wpm.rmt30n4.mongodb.net/?retryWrites=true&w=majority"
+    "mongoDB_URI" : "mongodb+srv://deekshith:bangi@wpm.rmt30n4.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret" : "secrettoken"
 } 
