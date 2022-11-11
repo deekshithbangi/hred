@@ -9,8 +9,8 @@ const Home = ()=> {
                 <h1 className='xl'> Professional Development </h1>
                 <p className='cta' > Learn more, earn more!! </p>
                 <div className='buttons' >
-                    <Link to='/register' className='btn btn-primary'>Register</Link>
-                    <Link to='/login' className='btn btn-light'>Login</Link>
+                    <Link to='/register' className='btn btn-primary '><center>Register</center></Link>
+                    <Link to='/login' className='btn btn-light'><center>Login</center></Link>
                 </div>
             </div>
         </div>

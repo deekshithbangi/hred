@@ -4,12 +4,15 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/layout/Home';
 import Register from './components/layout/auth/Register';
 import Login from './components/layout/auth/Login';
+import Loginh from './components/layout/loginh';
+
 import './App.css';
 
 const App = () => {
   return (
     <Router>
     <div className="App">
+      <loginh />
       <Navbar />
       <Route eact path = '/' component = { Home } />
       <section className='container'>
